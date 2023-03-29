@@ -6,6 +6,34 @@
 font-family: 'Open Sans', sans-serif;
 }
 body{
-    background: url(../images/bg.jpg);
+    height: 100hv;
+    width: 100%;
+    background: url(../images/bg.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px ;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: white;
+    font-size: 28px
+}
+span{
+    color:#ea1538
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+a{
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
 }
